@@ -29,9 +29,8 @@ namespace AspNetCoreWorkshop.Api.JobPhases.CreateJobPhaseForJob
 
         public async Task<Func<ControllerBase, IActionResult>> Handle(CreateJobPhaseForJobRequest message, CancellationToken cancellationToken)
         {
-            //TODO: create new Job from message, above, and save new phase to database
             //TODO: make sure job exists - if it doesn't return Not Found
-            //TODO: return JobId/Id using OkObjectResult
+            //TODO: return JobPhaseNumber/Description using Ok
             throw new NotImplementedException();
         }
     }

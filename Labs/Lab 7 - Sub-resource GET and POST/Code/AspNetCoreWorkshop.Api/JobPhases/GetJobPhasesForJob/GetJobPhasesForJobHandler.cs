@@ -28,10 +28,9 @@ namespace AspNetCoreWorkshop.Api.JobPhases.GetJobPhasesForJob
 
         public async Task<Func<ControllerBase, IActionResult>> Handle(GetJobsPhasesForJobRequest message, CancellationToken cancellationToken)
         {
-            //TODO: make sure Job exists in database - if not, return NotFoundResult
-
+            //TODO: make sure Job exists in database - if not, return NotFound
             //TODO: query WorkshopDbContext.JobPhases where JobId == message.JobId, then project to GetJobPhasesForJobResponse
-            
+
             throw new NotImplementedException();
         }
     }
